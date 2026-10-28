@@ -1,4 +1,7 @@
 import type { NextConfig } from "next";
+import { getServerEnv } from "./lib/env";
+
+getServerEnv();
 
 const nextConfig: NextConfig = {
   /* config options here */
